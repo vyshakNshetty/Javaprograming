@@ -6,8 +6,11 @@ public class EvenNum {
         Scanner vy=new Scanner(System.in);
         int n=vy.nextInt();
         for (int i=0;i<=n;i=i+2){
-            System.out.println(i);
+            System.out.println("Even No:"+i);
 
+        }
+        for (int x=1;x<=n;x=x+2){
+            System.out.println("Odd No:"+x);
         }
     }
 }
